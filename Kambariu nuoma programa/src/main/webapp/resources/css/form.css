@@ -1,0 +1,141 @@
+div.form-container {
+    background-color: var(--blue1);
+    min-width: 250px;
+    max-width: 450px;
+    margin: 12% auto;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: 5px 5px 6px var(--grey3);
+}
+
+div.form-container-wide {
+    background-color: var(--blue1);
+    min-width: 250px;
+    width: 70%;
+    max-width: 70%;
+    margin: 12% auto;
+    padding-top: 3px;
+    text-align: center;
+    box-shadow: 5px 5px 6px var(--grey3);
+}
+div.form-bottom {
+    background-color: var(--blue2);
+    text-align: right;
+    width: 100%;
+    margin-top: 20px;
+}
+
+h3.form-header {
+    color: var(--grey4);
+    font-family: Arial;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+input[type=submit] {
+    background-color: var(--blue2);
+    color: var(--blue4);
+    font-size: 20px;
+    font-family: Arial;
+    padding: 10px 25px;
+    border: none;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    display: inline-block;
+}
+
+input[type=submit]:hover {
+    background-color: var(--blue1);
+    color: var(--color5);
+}
+
+td.form-label {
+    color: var(--grey4);
+    size: 19px;
+    font-family: Verdana;
+    padding-right: 30px;
+    padding-top: 10px;
+    width: 50%;
+}
+
+
+td.form-entry {
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 50%;
+}
+td.form-entry-bold {
+    padding-left: 30px;
+    padding-top: 10px;
+    font-family: Verdana;
+    font-style: oblique;
+    width: 50%;
+    color: var(--grey4);
+}
+
+tr.form-entry-big {
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    width: 100%;
+}
+
+table.form-container {
+    margin: 0 auto;
+}
+table.form-container-with-margin {
+    margin: 0 15px;
+}
+
+input.form-entry {
+    font-family: Tahoma;
+    color: var(--grey3);
+    border: none;
+    background-color: var(--blue0);
+    transition-duration: 0.4s;
+    -webkit-transition-duration: 0.4s;
+    padding: 4px;
+}
+
+input.form-entry:focus {
+    border-bottom: 2.5px solid;
+    border-right: 2px solid;
+    border-color: var(--blue3);
+
+}
+
+h4.failed {
+    color: var(--errorRed);
+    font-family: Verdana;
+    font-size: 14px;
+    margin-left: 30px;
+    text-align: left;
+}
+h4.success {
+    color: var(--grey3);
+    font-family: Verdana;
+    font-size: 16px;
+    margin-left: 30px;
+    text-align: left;
+}
+
+input[type=radio].form-entry {
+
+}
+input[type=radio].form-entry:checked {
+
+}
+label.form-entry {
+    font-family: Verdana;
+    font-size: 12px;
+    color: var(--blue4);
+}
+
+td.form-label-message {
+    color: var(--grey4);
+    size: 19px;
+    font-family: Verdana;
+    padding-left: 30px;
+    padding-top: 10px;
+    width: 50%;
+}
